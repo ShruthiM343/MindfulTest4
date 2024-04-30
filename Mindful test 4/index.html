@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indes.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="total">
+        <div id="display"></div>
+        <div id="count">
+            Count=0
+        </div>
+        <div class="buttons">
+            <button onclick="click()"  id="c">Click</button>
+            <button onclick="res()" id="reset">Reset</button>
+            <button onclick="redclr()" id="r">Red</button>
+            <button onclick="blueclr()" id="b">Blue</button>
+        </div>
+
+    </div>
+
+    <script>
+        function click(){
+            var coun=document.getElementById("c").value;
+            document.getElementById("count").innerHTML= "Count " + coun++;
+        }
+        function res(){
+            document.getElementById("count").innerHTML= "Count " + coun==0; 
+        }
+        function redclr(){
+            document.getElementById("display").style.background-color:'red';
+        }
+        function blueclr(){
+            document.getElementById("display").style.background-color:'blue';
+        }
+        if((coun%5==0)){
+            circle
+        }
+        else if((coun%5!=0) && (coun%2==0)){
+            square
+        }
+        else if((coun%5!=0) && (coun%2==0)){
+
+        }
+        else{
+
+        }
+    </script>
+    
+</body>
+</html>

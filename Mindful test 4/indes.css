@@ -1,0 +1,17 @@
+.total{
+    border-style: none;
+    width:400px;
+    height:200px;
+    margin-top:260px;
+    margin-left:580px;
+    .buttons{
+        #c, #reset, #r, #b, #count{
+            padding:13px 20px;
+            margin-top:120px;
+            border-radius: 15px;
+            background-color: white;
+            font-size: 20px;
+        }
+
+    }
+}
